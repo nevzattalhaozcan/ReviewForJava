@@ -4,6 +4,59 @@ public class $2LoopingStatements {
 
     public static void main(String[] args) {
 
+        /**
+         * LOOPS
+         * Loops check a condition. If the condition is true, the code block gets executed. Then, the condition is
+         * checked again. It repeats until the condition returns false
+         * There are three types of loops:
+         *     For Loop:
+         *         Runs the given code a specific number of times. Initialization is the starting point. Condition is
+         *         the ending point. Iterator is responsible for making the condition false
+         *     While Loop:
+         *         It is like repeated if statement. Condition is checked before the loop starts. Loop gets terminated
+         *         if the condition is evaluated as false.
+         *     Do While Loop:
+         *         Runs the code block first, then checks the condition. If it is true, runs again. So, the code block
+         *         gets executed at least one time.
+         * If the number of repetition is known, for loop is used
+         * If the number of repetition is not known, while loop is used
+         * If the code is needed to be got executed at least one time, do while loop is used
+         *
+         *     Nested Loop:
+         *         In short, loop inside another loop. For each iteration of the outer loop, the inner loop iterates from
+         *         beginning to the end till the outer loop ends.
+         */
+
+        System.out.println("---For Loop---");
+        for(int i = 0; i < 5; i++){
+            System.out.println("Count is: " + i);
+        }
+
+
+        System.out.println("---While Loop---");
+        int a = 0;
+        while (a++ < 5){
+            System.out.println("Count is: " + a);
+        }
+
+
+        System.out.println("---Do While Loop---");
+        int b = 0;
+        do {
+            System.out.println("Count is: " + b++);
+        }while (b < 5);
+
+
+        System.out.println("---Nested Loop---");
+        int c = 0;
+        for (int i = 0; i < 5; i++) {
+
+            while (c++ < 5){
+                System.out.println(i + " : " + c);
+            }
+
+        }
+
 
 
     }
