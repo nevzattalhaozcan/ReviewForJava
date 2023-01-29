@@ -135,5 +135,19 @@ public class $6Operators {
 
         System.out.println(b1 && b2 || true && b2);
 
+        /**
+         * PRECEDENCE OF OPERATORS
+         * 1. - !
+         * 2. * / %
+         * 3. + -
+         * 4. < > <= >=
+         * 5. == !=
+         * 6. &&
+         * 7. ||
+         * 8. = += -= *= /= %=
+         */
+
+
+
     }
 }
