@@ -1,4 +1,4 @@
-package intro;
+package $1intro;
 
 public class $5PrimitiveTypeCasting {
 
