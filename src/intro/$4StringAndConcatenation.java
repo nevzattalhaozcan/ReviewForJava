@@ -1,6 +1,6 @@
 package intro;
 
-public class StringAndConcatenation {
+public class $4StringAndConcatenation {
 
     public static void main(String[] args) {
 

@@ -1,12 +1,12 @@
 package intro;
 
-public class Variables {
+public class $3Variables {
 
     public static void main(String[] args) {
 
         /**
          * VARIABLES:
-         * Variables are containers that stores data. They improve the re-usability of the data.
+         * $4Variables are containers that stores data. They improve the re-usability of the data.
          *
          * DATA TYPES
          *   Primitive:

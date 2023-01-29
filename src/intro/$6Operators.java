@@ -1,6 +1,6 @@
 package intro;
 
-public class Operators {
+public class $6Operators {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package intro;
 
-public class EscapeSequences {
+public class $2EscapeSequences {
 
     public static void main(String[] args) {
 

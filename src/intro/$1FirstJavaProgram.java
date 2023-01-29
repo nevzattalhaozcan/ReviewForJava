@@ -1,6 +1,6 @@
 package intro;
 
-public class FirstJavaProgram {
+public class $1FirstJavaProgram {
 
     public static void main(String[] args) {
 

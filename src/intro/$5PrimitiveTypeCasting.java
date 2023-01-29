@@ -1,6 +1,6 @@
 package intro;
 
-public class PrimitiveTypeCasting {
+public class $5PrimitiveTypeCasting {
 
     public static void main(String[] args) {
 
