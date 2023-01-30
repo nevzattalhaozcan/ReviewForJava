@@ -10,7 +10,11 @@ public class $2ForEachLoop {
          *     It does not have index number.Data type must match with the successive values of the data structure
          */
 
+        int[] arr = {1,2,3,4,5};
 
+        for(int each : arr){
+            System.out.println(each);
+        }
 
     }
 }
