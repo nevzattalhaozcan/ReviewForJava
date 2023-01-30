@@ -107,6 +107,22 @@ public class $1DecisionMakingStatements {
         System.out.println("Number of Days = " + numDays);
 
 
+
+        /**
+         * TERNARIES
+         * It can be considered as the shortcut of if statement. It consists of three parts: Condition, if, else.
+         * After checking all conditions, it must be assigned or printed. All blocks have to have the same data type.
+         */
+
+        String s = (5 > 3) ? "5 is greater than 3" : "3 is greater than 5";
+
+        System.out.println((5 > 3) ? "5 is greater than 3" : "3 is greater than 5");
+
+        int age = 19;
+        String eligibleForAlcohol = (age >= 0 && age < 100) ?
+                                    (age >= 18) ? "Can buy alcohol" : "Cant buy"
+                                    : "Invalid age";
+
     }
 }
 
