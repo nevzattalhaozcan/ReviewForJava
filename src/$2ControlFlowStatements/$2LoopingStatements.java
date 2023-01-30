@@ -18,6 +18,7 @@ public class $2LoopingStatements {
          *     Do While Loop:
          *         Runs the code block first, then checks the condition. If it is true, runs again. So, the code block
          *         gets executed at least one time.
+         *
          * If the number of repetition is known, for loop is used
          * If the number of repetition is not known, while loop is used
          * If the code is needed to be got executed at least one time, do while loop is used
