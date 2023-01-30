@@ -100,6 +100,7 @@ class Tasks{
 
                         output:
                                 a2b1c3d1
+
          */
 
 
@@ -111,5 +112,18 @@ class Tasks{
                         output:
                                 bdf
          */
+
+
+
+        /*
+
+        *
+        * *
+        * * *
+        * * * *
+        * * * * *
+
+         */
+
     }
 }
