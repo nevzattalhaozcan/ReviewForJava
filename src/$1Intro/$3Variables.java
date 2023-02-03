@@ -61,5 +61,13 @@ public class $3Variables {
 
         //long if = 12; COMPILER ERROR because "if" is a Java-reserved word
 
+        String str = "null";
+
+
+
+        //str += " safddasf";
+
+        System.out.println(str + "ssss");
+
     }
 }

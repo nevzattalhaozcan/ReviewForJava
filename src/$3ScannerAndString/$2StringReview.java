@@ -23,7 +23,7 @@ public class $2StringReview {
         String str = "String Literal";
 
                                    // 012345678901234567890123456
-        String s = new String("  String with new keyword  ");
+        String s = new String("  Strang wath naw kayward  ");
 
         str.toLowerCase();
 
@@ -59,10 +59,11 @@ public class $2StringReview {
         System.out.println(s.lastIndexOf("n")); // returns -1, if no such value exists in the string
 
         // replace(old,new): replaces all matching characters with the new value, returns String
-        System.out.println(s.replace("a","o"));
+        System.out.println("Replace: " + s.replace("a","o"));
+        System.out.println("Replace All: " + s.replaceAll("a","o"));
 
         // replaceFirst(old,new): replaces first matching characters with the new value, returns String
-        System.out.println(s.replaceFirst("a","o"));
+        System.out.println("Replace First: " + s.replaceFirst("a","o"));
 
         // substring(beginIndex,endIndex): returns the substring between begin and end index(excluding) as String
         System.out.println(s.substring(5));
@@ -81,7 +82,7 @@ public class $2StringReview {
         System.out.println(s.equals("abc"));
 
         // equalsIgnoreCase(string): returns whether the string is equals with the given string ignoring as boolean
-        System.out.println(s.equals("abc"));
+        System.out.println(s.equalsIgnoreCase("abc"));
 
         // contains(string): returns whether the string contains the given string or not as boolean
         System.out.println(s.contains("with"));
@@ -105,7 +106,12 @@ class Tasks{
                 output: tyson_mike@gmail.com
          */
 
+        String email = "mike_tyson@gmail.com";
 
+        String newMail = email.substring(email.indexOf("_")+1,email.indexOf("@")) +
+                "_" + email.substring(0,email.indexOf("_")) + email.substring(email.indexOf("@"));
+
+        System.out.println(newMail);
 
     }
 

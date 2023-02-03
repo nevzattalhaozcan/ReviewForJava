@@ -27,12 +27,19 @@ public class $2LoopingStatements {
          *         In short, loop inside another loop. For each iteration of the outer loop, the inner loop iterates from
          *         beginning to the end till the outer loop ends.
          */
-
+        int aa = 0;
+        int ab = 0;
         System.out.println("---For Loop---");
         for(int i = 0; i < 5; i++){
+            aa++;
+            if(i == 3){
+                continue;
+            }
+            ab++;
             System.out.println("Count is: " + i);
         }
-
+        System.out.println("aa " + aa);
+        System.out.println("ab " + ab);
 
         System.out.println("---While Loop---");
         int a = 0;
@@ -75,7 +82,33 @@ class Tasks{
 	                true
          */
 
+        String str = "caT doga doGa cAt";
+//        int cat = 0, dog = 0;
+//
+//        for (int i = 0; i <= str.length()-3; i++) {
+//
+//            if(str.substring(i,i+3).equalsIgnoreCase("dog")){
+//                dog++;
+//            } else if (str.substring(i,i+3).equalsIgnoreCase("cat")) {
+//                cat++;
+//            }
+//
+//        }
+//
+//        System.out.println(cat == dog);
+        int doga = 0, cat = 0;
 
+        for (int i = 0; i <= str.length()-4; i++) {
+
+            if(str.substring(i,i+3).equalsIgnoreCase("cat")) {
+                cat++;
+            }else if(str.substring(i,i+4).equalsIgnoreCase("doga")){
+                doga++;
+            }
+
+        }
+        System.out.println("Dog: " + doga + " | Cat:" + cat);
+        System.out.println(cat == doga);
 
         /*
         EX:
@@ -87,13 +120,38 @@ class Tasks{
 	       Divisible By 3: 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84 87 93 96 99
          */
 
-
+        int input = 100;
+//        String by15 = "", by5 = "", by3 = "";
+//
+//        for (int i = 1; i <= input; i++) {
+//
+//            if(i % 15 == 0){
+//                by15 += i + " ";
+//            }else  if (i % 5 == 0) {
+//                by5 += i + " ";
+//            }else if (i % 3 == 0) {
+//                by3 += i + " ";
+//            }
+//
+//        }
+//
+//        System.out.println("by15 = " + by15);
+//        System.out.println("by5 = " + by5);
+//        System.out.println("by3 = " + by3);
 
         /*
         Write a program that can display the multiplication table
          */
 
-
+//        for (int i = 1; i <= 10; i++) {
+//
+//            for (int j = 1; j <= 10; j++) {
+//
+//                System.out.print(i*j + "\t");
+//
+//            }
+//            System.out.println();
+//        }
 
         /*
         Ex:
@@ -104,7 +162,29 @@ class Tasks{
 
          */
 
+        String s = "aabcccd";
 
+//        String result = "";
+//
+//        for (int i = 0; i < s.length(); i++) {
+//
+//            int count = 0;
+//
+//            for (int j = 0; j < s.length(); j++) {
+//
+//                if(s.charAt(i) == s.charAt(j)){
+//                    count++;
+//                }
+//
+//            }
+//
+//            if(!result.contains(""+s.charAt(i))){
+//                result += ""+ s.charAt(i) + count;
+//            }
+//
+//        }
+//
+//        System.out.println(result);
 
         /*
         Ex:
@@ -114,7 +194,20 @@ class Tasks{
                                 bdf
          */
 
-
+        String string = "aabccdeef";
+//        String uniques = "";
+//
+//        for (int i = 0; i < string.length(); i++) {
+//
+//            if(string.indexOf(i) == string.lastIndexOf(i)){
+//                if(!uniques.contains(""+string.charAt(i))){
+//                    uniques += string.charAt(i);
+//                }
+//            }
+//
+//        }
+//
+//        System.out.println(uniques);
 
         /*
 
@@ -123,8 +216,19 @@ class Tasks{
         * * *
         * * * *
         * * * * *
+        * * * * * *
+        * * * * *
+        * * * *
+        * * *
+        * *
+        *
 
          */
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("* ".repeat(i));
+        }
+
 
     }
 }

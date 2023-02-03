@@ -16,19 +16,27 @@ public class $1ScannerReview {
          * memory and closes.
          */
 
+        String str = "Wooden";
+
+        StringBuilder str2 = new StringBuilder("Wooden");
+        str2.append(" Spoon");
+
+        System.out.println(str2);
+
+        str = str.concat("Spoon");
+
+        System.out.println(str);
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
-
         scanner.nextLine();
 
         System.out.print("Enter your age: ");
-
-        scanner.nextInt();
+        scanner.next();
 
         System.out.println("Enter your field: ");
-
-        scanner.nextLine();
+        System.out.println(scanner.nextLine());
 
         scanner.close();
     }

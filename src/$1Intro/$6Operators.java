@@ -20,6 +20,14 @@ public class $6Operators {
         System.out.println("3 + 5 = " + 3 + 5);
         System.out.println("3 + 5 = " + (3 + 5));
 
+        double x = 5 / 3;
+        System.out.println(x);
+
+        int y = (int)( 5 / 3.0);
+
+        System.out.println(y);
+
+
         System.out.println(5 / 3);
 
         System.out.println(5 / 3.0);
@@ -67,15 +75,15 @@ public class $6Operators {
 
         System.out.println("SHORTHAND OPERATORS");
 
-        int x = 5;
+        int x1 = 5;
 
-        x += 5;
+        x1 += 5; // x1 = x1 + 5;
 
-        System.out.println(x);
+        System.out.println(x1);
 
-        x %= 5;
+        x1 %= 5;
 
-        System.out.println(x);
+        System.out.println(x1);
 
 
         /**
@@ -95,7 +103,7 @@ public class $6Operators {
 
         System.out.println(result);
 
-        System.out.println(5 > 3);
+        System.out.println(5 > 3); // return 4 < 3;
 
         int c = 2;
         int d = 5;
@@ -107,7 +115,7 @@ public class $6Operators {
          * LOGICAL OPERATORS
          * !!! All logical operators return "boolean", they are treated as boolean !!!
          * Logical And: &&
-         *     When one of the statements is "false", it doesn't check the rest and returns "false"
+         *     When one of the statements is "false", it doesn't check the rest and returns "false" a > b & --a
          *     Only if all of them are "true", it returns "true"
          * Logical Or: ||
          *     When one of the statements is "true", it doesn't check the rest and returns "true"

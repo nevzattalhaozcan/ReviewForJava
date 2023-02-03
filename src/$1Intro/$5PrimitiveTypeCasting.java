@@ -20,7 +20,15 @@ public class $5PrimitiveTypeCasting {
          *         It may cause data loss
          */
 
-        int myInt = 1000;
+        int myInt = 2000;
+
+        char ch = 'a';
+
+        byte a = (byte) ch;
+
+        boolean b = true;
+
+
 
         // Implicit Casting
         long myLong = myInt;

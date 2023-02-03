@@ -21,7 +21,7 @@ public class $4StringAndConcatenation {
          * In concatenation, everything turns into a String at the end of the process.
          */
 
-        System.out.println("My number is: " + 12);
+        System.out.println("My number is: " + 12 + 12);
 
         int age = 26;
 
